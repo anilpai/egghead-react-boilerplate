@@ -2,8 +2,15 @@
   "name": "react-boilerplate",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
   "license": "MIT",
   "private": true,
   "repository": "https://github.com/anilpai/egghead-react-boilerplate.git",
-  "author": "Anil Pai <anilbpai@gmail.com>"
+  "author": "Anil Pai <anilbpai@gmail.com>",
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
 }

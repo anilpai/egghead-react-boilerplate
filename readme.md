@@ -23,3 +23,6 @@ To run in dev using hot reloading
 Bundle Analyzer
 
 ```open dist/bundle_sizes.html```
+
+
+If using latest react, following babel plugin is not required `@babel/plugin-syntax-dynamic-import`

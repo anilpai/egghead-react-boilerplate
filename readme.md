@@ -10,8 +10,16 @@
 
 To run in development
 
- ```yarn dev```
+```yarn dev```
 
 To run in production
 
- ```yarn build```
+```yarn build```
+
+To run in dev using hot reloading
+
+```yarn dev:hot```
+
+Bundle Analyzer
+
+```open dist/bundle_sizes.html```

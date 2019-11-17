@@ -26,3 +26,17 @@ Bundle Analyzer
 
 
 If using latest react, following babel plugin is not required `@babel/plugin-syntax-dynamic-import`
+
+
+Note:
+
+@babel/plugin-syntax-dynamic-import might be required (Dynamic Import Syntax Issue)
+Install dev-dependencies [bable-jest & babel-core@bridge] (Babel-Core Errors)
+
+configure test env for .babelrc
+
+"env:{
+    "test": {
+        "plugins": ["dynamic-import-node"]
+    }
+}

@@ -1,5 +1,5 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+import propTypes from 'prop-types'
 
 export default class DefaultErrorBoundary extends React.Component {
   state = {
@@ -10,13 +10,13 @@ export default class DefaultErrorBoundary extends React.Component {
     return { isError: true }
   }
 
+  static propTypes = {
+    children: propTypes.node.isRequired
+  }
+
   render() {
     const { isError } = this.state
     const { children } = this.props
     return isError ? <div>Something Went Wrong !</div> : children
   }
-}
-
-DefaultErrorBoundary.propTypes = {
-  children: PropTypes.node
 }
